@@ -1,0 +1,109 @@
+.titulo{
+    width: 200px;
+    margin: 5px auto; 
+}
+
+.formulario{
+    width: 200px;
+    margin: 10px auto; 
+}
+
+.p{
+    margin: 5px;
+}
+
+.text__name{
+margin: 10px;
+}
+
+
+.pantalla_pokedex{
+    background-image: url('../imagen/pokedex.jpg');
+    position: relative;
+    height: 800px;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 500px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid black;
+    padding-top: 150px;
+
+}
+
+.imagen {
+    position: relative;
+    width: 150px;
+    margin: 3px auto;
+}
+
+
+
+.estadisticas div{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 3px;
+    font-size: 17px;
+}
+
+.tipos{
+    width: 100px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.stats{
+    position: relative;
+    margin: 3px auto;
+}
+
+.tipos div{
+    padding: 5px;
+    font-weight: bolder;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+@media screen and (max-width:400px){
+    .pantalla_pokedex{
+        background-image: url('../imagen/pokedex.jpg');
+        position: relative;
+        height: 800px;
+        font-family: 'Roboto Mono', monospace;
+        max-width: 500px;
+        border-radius: 4px;
+        color: #000;
+        text-align: center;
+        padding: 10px;
+        margin: 0 auto;
+        background-color: #FFF;
+        border: 1px solid black;
+        padding-top: 150px;
+        
+    }
+}
+
+@media screen and (max-width:320px){
+  
+        .pantalla_pokedex{
+            background-image: url('../imagen/pokedex.jpg');
+            position: relative;
+            height: 800px;
+            font-family: 'Roboto Mono', monospace;
+            max-width: 500px;
+            border-radius: 4px;
+            color: #000;
+            text-align: center;
+            padding: 10px;
+            margin: 0 auto;
+            background-color: #FFF;
+            border: 1px solid black;
+            padding-top: 150px;
+            
+        }
+}
